@@ -8,6 +8,7 @@ At the moment it includes a couple dependencies such as:
 	<li>jQuery</li>
 </ul>
 
+<h3>Check out the current working version of this project at: https://graysoncroom.github.io/BpaWebProject/</h3>
 I will use these to get a sence of what is going to happen, and soon thereafter
 cut ties with these awesome tools.
 
