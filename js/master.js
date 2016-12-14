@@ -3,7 +3,7 @@ var buttons = document.querySelectorAll(".box");
 // >>>>>>>>>
 for(var i = 0; i < buttons.length; i++){
 	buttons[i].addEventListener("click", function(){
-		window.location = "BpaWebProject/pages/" + findPage(this) + ".html";
+		window.location = "/BpaWebProject/pages/" + findPage(this) + ".html";
 	});
 }
 makePageTitle();
