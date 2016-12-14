@@ -1,14 +1,31 @@
 @CHARSET "UTF-8";
 html, body {
 	height: 100%;
-	/*background-image: url(../pictures/retina_wood.png);*/
+	background-image: white;
 }
 h1 {
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
-
 }
+#title-drop {
+	margin-top: 70px;
+}
+.box {
+	background: #8BA8EC;
+	text-align: center;
+	padding: 40px;
+	border: 5px solid white;
+	border-radius: 40px;
 
+	-webkit-transition: all .2s;
+	    -moz-transition: all .2s;
+	      -ms-transition: all .2s;
+	         -o-transition: all .2s;
+			      transition: all .2s;
+}
+.box:hover {
+	background: #5DE393;
+}
 .jumbotron {
 	margin-top: 70px;
 	/*background-image: url(../pictures/sandpaper.png);*/
