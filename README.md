@@ -5,7 +5,7 @@
 At the moment it includes a couple dependencies such as:
 <ul>
 	<li>Bootstrap</li>
-	<li>jQuery (I don't write in jquery, it's a bootstrap dependency</li>
+	<li>jQuery ( I don't write in jquery, it's a bootstrap dependency )</li>
 </ul>
 
 <h3>Check out the current working version of this project at: https://graysoncroom.github.io/BpaWebProject/</h3>
