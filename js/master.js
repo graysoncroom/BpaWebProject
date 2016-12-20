@@ -3,6 +3,8 @@ var diyButton = document.querySelector("h1");
 var count = 1;
 var MAXPAGES = 5;
 
+header.style.backgroundImage = "url(pictures/background0.jpg";
+
 setInterval(function(){
 	if(count < MAXPAGES) {
 		header.style.backgroundImage = "url(pictures/background" + count + ".jpg)";
