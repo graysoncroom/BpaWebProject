@@ -5,14 +5,13 @@ var MAXPAGES = 5;
 
 header.style.backgroundImage = "url(pictures/background0.jpg";
 
-setInterval(function(){
+// makes the text in the center of landing page, change the header image when clicked
+diyButton.addEventListener("click", cycleHeaderImage);
+
+function cycleHeaderImage(){
 	if(count < MAXPAGES) {
 		header.style.backgroundImage = "url(pictures/background" + count + ".jpg)";
 		count++;
 	}
 	else count = 0;
-},10000);
-
-diyButton.addEventListener("click",function(){
-	alert("OUCH");
-});
+}
