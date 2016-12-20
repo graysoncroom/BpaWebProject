@@ -9,7 +9,7 @@ setInterval(function(){
 		count++;
 	}
 	else count = 0;
-},5000);
+},10000);
 
 diyButton.addEventListener("click",function(){
 	alert("OUCH");
