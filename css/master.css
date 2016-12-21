@@ -11,28 +11,58 @@ body {
 header {
 	height: 100%;
 	background-size: cover;
-	display: flex;
-	flex-direction: column;;
-	justify-content: center;
-	align-items: center;
 	margin-bottom: 50px;
-	transition: all 0.7s;
+	text-align: center;
+
+	-webkit-box-orient: vertical;
+
+	display: -webkit-box;
+	display: -ms-flexbox;
+	       display: flex;
+
+	-webkit-box-direction: normal;
+	   -ms-flex-direction: column;
+	       flex-direction: column;
+
+	-webkit-box-align: center;
+	   -ms-flex-align: center;
+	 -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	  justify-content: center;
+	      align-items: center;
+
+
+	-webkit-transition: all 0.7s;
+	        transition: all 0.7s;
 }
 
 h1 {
 	font-family: 'Amatic SC', cursive;
 	color: white;
 	margin: 0;
+	padding: 20px;
 	font-size: 80px;
-	cursor: pointer;
 }
 
 p {
 	max-width: 600px;
-	width: 70%;
+	width: 65%;
 	margin: 0 auto 20px;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	background: green;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 60px;
+	transition: all 0.3s;
+}
+a:hover {
+	box-shadow: 0px 0px 0px 1px green inset, 0px 0px 0px 3px white inset;
+}
 .hide {
 	display: none;
 }
