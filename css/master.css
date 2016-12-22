@@ -104,6 +104,7 @@ a:hover {
 	color: white;
 	cursor: pointer;
 	text-align: center;
+	border-radius: 18px;
 	width: 50%;
 	-webkit-transition: all 0.2s;
 	        transition: all 0.2s;
@@ -116,6 +117,7 @@ a:hover {
 .container-temp {
 	background-color: rgba(177, 17, 111, 0.57);
 	max-width: 1000px;
+	border-radius: 18px;
 	width: 90%;
 }
 
