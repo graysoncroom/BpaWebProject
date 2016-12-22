@@ -1,4 +1,3 @@
-var header = document.querySelector("header");
 var count = 1;
 var MAXPAGES = 5;
 
@@ -26,26 +25,15 @@ function smoothScroll(target){
 
 function makeScrollButtons(){
 	var landingButtons = document.querySelectorAll("a");
-
 	landingButtons[0].addEventListener("click", smoothScrollToProject);
 	landingButtons[1].addEventListener("click", smoothScrollToTeam);
 	landingButtons[2].addEventListener("click", smoothScrollToBts);
 }
-function cycleBackgroundImage(){
-	var body = document.querySelector("body");
-	if(count < MAXPAGES) {
-		body.style.backgroundImage = "url(pictures/background" + count + ".jpg)";
-		count++;
-	}
-	else count = 0;
-}
+
 function smoothScrollToProject(){smoothScroll(document.querySelector("#proj"));}
 function smoothScrollToTeam(){smoothScroll(document.querySelector("#team"));}
 function smoothScrollToBts(){smoothScroll(document.querySelector("#bts"));}
 
-function init(){
-	makeScrollButtons();
-	setInterval(cycleBackgroundImage,30000);
-}
+function init(){makeScrollButtons();}
 
 init();
