@@ -5,17 +5,22 @@ html, body {
 }
 
 body {
-	background: honeydew;
-}
-
-header {
-	width: 100%;
-	height: 100%;
+	background-color: rgb(125, 131, 213);
+	background-image: url(../pictures/background0.jpg);
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 	text-align: center;
+	color: white;
+
+	-webkit-transition: all 1s;
+	        transition: all 1s;
+}
+
+header, article {
+	width: 100%;
+	height: 100%;
 
 	-webkit-box-orient: vertical;
 
@@ -33,15 +38,8 @@ header {
 	    -ms-flex-pack: center;
 	  justify-content: center;
 	      align-items: center;
-
-
-	-webkit-transition: all 0.7s;
-	        transition: all 0.7s;
 }
 
-article {
-	margin-top: 50px;
-}
 h1 {
 	font-family: 'Amatic SC', cursive;
 	color: white;
@@ -54,19 +52,17 @@ h1 {
 
 h2 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 80px;
 	font-weight: lighter;
+	font-family: 'Amatic SC', cursive;
 }
 
 h3 {
-	font-size: 30px;
-	margin-top: 230px;
-	margin-bottom: 0;
+	margin-top: 60px;
 }
 
 p {
-	padding: 0 30px;
-	text-overflow: ellipsis;
+	padding: 0 33px;
 }
 
 a {
@@ -88,27 +84,35 @@ a:hover {
 	background-color: #3D9970;
 }
 
-.hide {
-	display: none;
-}
-
-table {
+.row {
+	max-width: 1000px;
+	width: 90%;
 	margin: 0 auto;
-	width: 500px;
 
+	display: -webkit-box;
+	display: -ms-flexbox;
+	       display: flex;
+	align-content: space-around;
+	align-items: center;
 }
 
-td {
-	display: inline-block;
+.bubble {
+	margin: 5px;
+	background: rgba(71, 182, 133, 0.57);
+	color: white;
+	cursor: pointer;
 	text-align: center;
-	margin: 40px;
-
-	background: skyblue;
-	width: 500px;
-	height: 500px;
-	transition: all 0.2s;
+	width: 50%;
+	-webkit-transition: all 0.2s;
+	        transition: all 0.2s;
 }
 
-td:hover {
-	box-shadow: 0px 0px 0px 5px steelblue;
+.bubble:hover {
+	background: #47b685;
+}
+
+.container-temp {
+	background-color: rgb(177, 17, 111);
+	max-width: 1000px;
+	width: 90%;
 }

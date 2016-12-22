@@ -1,12 +1,6 @@
 var header = document.querySelector("header");
-var landingButtons = document.querySelectorAll("a");
 var count = 1;
 var MAXPAGES = 5;
-
-function smoothScrollToProject(){smoothScroll(document.querySelector("#proj"));}
-function smoothScrollToTeam(){smoothScroll(document.querySelector("#team"));}
-function smoothScrollToBts(){smoothScroll(document.querySelector("#bts"));}
-function smoothScrollToLand(){smoothScroll(document.querySelector("header"));}
 
 function smoothScroll(target){
 	var scrollContainer = target;
@@ -30,19 +24,28 @@ function smoothScroll(target){
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
 
-function init(){
-	header.style.backgroundImage = "url(pictures/background0.jpg)";
+function makeScrollButtons(){
+	var landingButtons = document.querySelectorAll("a");
+
 	landingButtons[0].addEventListener("click", smoothScrollToProject);
 	landingButtons[1].addEventListener("click", smoothScrollToTeam);
 	landingButtons[2].addEventListener("click", smoothScrollToBts);
 }
-
-function cycleHeaderImage(){
+function cycleBackgroundImage(){
+	var body = document.querySelector("body");
 	if(count < MAXPAGES) {
-		header.style.backgroundImage = "url(pictures/background" + count + ".jpg)";
+		body.style.backgroundImage = "url(pictures/background" + count + ".jpg)";
 		count++;
 	}
 	else count = 0;
+}
+function smoothScrollToProject(){smoothScroll(document.querySelector("#proj"));}
+function smoothScrollToTeam(){smoothScroll(document.querySelector("#team"));}
+function smoothScrollToBts(){smoothScroll(document.querySelector("#bts"));}
+
+function init(){
+	makeScrollButtons();
+	setInterval(cycleBackgroundImage,30000);
 }
 
 init();
