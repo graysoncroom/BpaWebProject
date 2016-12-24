@@ -34,6 +34,15 @@ function smoothScrollToProject(){smoothScroll(document.querySelector("#proj"));}
 function smoothScrollToTeam(){smoothScroll(document.querySelector("#team"));}
 function smoothScrollToBts(){smoothScroll(document.querySelector("#bts"));}
 
-function init(){makeScrollButtons();}
+function init(){
+	makeScrollButtons();
+
+}
 
 init();
+var bubble = document.querySelectorAll(".bubble");
+for(var i=0; i<bubble.length; i++){
+	bubble[i].addEventListener("click", function(){
+		console.log("ouch");
+	});
+}
