@@ -3,13 +3,13 @@
  * Activity === Project
  * make{$InsertNameHere}Buttons === give function to pre-existing buttons
  *
- * most names match the html id/classes for the most part
+ * variable names match the html id/classes for the most part
 */
 
 // global variable def
 var count = 1;
 var MAXPAGES = 5;
-
+var test;
 // scrolls to target as long as target is below the current position
 // adjusts speed to make arival time the same no matter the target
 function smoothScroll(target){
@@ -47,7 +47,7 @@ function makeNavButtons(){
 }
 
 function displayProject(element){
-	alert("Enlarging Project (not yet implmented)");
+	window.location.href = "pages/project" + element.id + ".html";
 }
 
 // gives function to the project summary buttons when clicked

@@ -20,4 +20,4 @@ This project is mobile responsive with a desktop-first approach. Colors and page
 
 If you have suggestions or comments of kind either email me at grayson.croom@gmail.com or start an issue board to get others who may also share your opinion talking about it. Make sure to check the issue board before making your own as to minimize duplicates.
 
-Project Deadline: You wot m8?
+Project Deadline: January 9ish
