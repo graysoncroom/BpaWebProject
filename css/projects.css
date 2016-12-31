@@ -51,7 +51,7 @@ a {
 a:hover {
 	background-color: #3D9970;
 }
-section {
+section,article {
 	background-color: rgba(177, 17, 111, 0.57);
 
 	margin: 10px auto;
