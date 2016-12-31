@@ -17,7 +17,7 @@
 				<h1>Do it yourself</h1>
 				<a id="projbtn">Find an Activity</a>
 				<a id="teambtn">Meet The Team</a>
-				<a id="btsbtn">Behind The Scenes</a>
+				<a id="btsbtn">Contact Us</a>
 			</div>
 		</header>
 
@@ -93,12 +93,45 @@
 		</section>
 
 		<section id="bts">
-			<h2>Behind The Scenes</h3>
+			<h2>Contact Us</h3>
 			<a class="btt" href="#top">Goto Navigation</a>
 			<div class="container-temp">
-			<iframe src="https://www.youtube.com/embed/XaBNrDAxOJY" frameborder="0" allowfullscreen></iframe>
-			<p>what the meme.</p>
-		</div>
+				<p>If you would like to know more about one of the projects, the website, or are interested in submiting your own DIY project contact us with the form below!</p>
+
+				<p>Please enter your name, email, and message. You are required to pick one of the preselected topics below. A responce will be sent no later than 24 hours after submission.</p>
+				<form class="contactForm" action="php/mail.php" method="post">
+
+					<p>Full Name:</p>
+					<input type="text" name="name" value="" placeholder="Firstname Lastname" />
+
+					<br />
+					<br />
+
+					<p>Email:</p>
+					<input type="email" name="email" value="" placeholder="yourname@mailclient.com" />
+
+					<br />
+					<br />
+
+					<p>Topic:</p>
+					<select class="topicDropDown" name="topic">
+						<option value="siteInfo">Website Information Request</option>
+						<option value="projInfo">Project Information Request</option>
+						<option value="projSub">DIY Submission Request</option>
+					</select>
+
+					<br />
+					<br />
+					<br />
+
+					<p>Message:</p>
+					<textarea name="message" rows="8" cols="80" placeholder="Your message goes here."></textarea>
+
+					<br />
+
+					<input type="submit" value="Send" />
+				</form>
+			</div>
 		</section>
 		<!-- Master js -->
 		<script type="text/javascript" src="js/master.js" charset="utf-8"></script>

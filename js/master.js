@@ -9,7 +9,7 @@
 // global variable def
 var count = 1;
 var MAXPAGES = 5;
-var test;
+
 // scrolls to target as long as target is below the current position
 // adjusts speed to make arival time the same no matter the target
 function smoothScroll(target){
