@@ -118,7 +118,7 @@
 			smoothScroll(document.querySelector("#build"));
 		});
 		navButtons[4].addEventListener('click',function(){
-			smoothScrool(document.querySelector("#con"))
+			smoothScroll(document.querySelector("#con"))
 		});
 	}
 	createSlider();
