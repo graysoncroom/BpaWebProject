@@ -100,18 +100,25 @@ p {
 	text-indent: 40px;
 	font-size: 30px;
 }
-ul {
+ul.rrr {
 	font-size: 34px;
 	list-style: none;
 	text-align: left;
 }
-li {
+#space {
+	line-height: 45px;
+}
+.listSlider11{background-image: url(../media/pictures/computer11.jpg);}
+.listSlider12{background-image: url(../media/pictures/computer12.jpg);}
+.listSlider21{background-image: url(../media/pictures/computer21.jpg);}
+.listSlider22{background-image: url(../media/pictures/computer22.jpg);}
+li.rrr {
 	margin: 25px;
 	cursor: pointer;
 	max-width: 300px;
 	width: 90%;
 }
-li:hover {
+li.rrr:hover {
 	color: rgb(201, 201, 201);
 }
 .image {
