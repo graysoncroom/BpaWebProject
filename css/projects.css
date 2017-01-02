@@ -121,16 +121,20 @@ ul + p {
 #bth {
 	margin-bottom: 100px;
 }
-/*@media (max-width: 990px){
-	hr {
-		margin-bottom: 0;
-	}
+.steps{
+	display: none;
 }
-@media (max-width: 890px) {
-	hr {
-		margin-bottom: 10px;
-	}
-}*/
+#step11, #step21 {
+	display: block;
+}
+button {
+	max-width: 400px;
+	width: 80%;
+	font-size: 40px;
+}
+button:hover {
+	background-color: rgb(195, 195, 195);
+}
 @media (max-width: 700px){
 	.image {
 		float: none;
@@ -153,5 +157,8 @@ ul + p {
 	}
 	p#step {
 		font-size: 22px;
+	}
+	h3 {
+		text-align: center;
 	}
 }

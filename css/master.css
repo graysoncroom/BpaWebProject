@@ -120,12 +120,26 @@ a:hover {
 	        transform: translate(-50%,-50%);
 }
 .picture {
-	width: 110px;
-	height: 110px;
+	width: 130px;
+	height: 130px;
 	margin: 10px;
 	border-radius: 50%;
 	float: left;
 	background-color: white;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#proj h3 {
+	font-size: 34px;
+}
+#proj p, #team p, #bts p {
+	font-size: 25px;
+}
+#bts p {
+	text-align: center;
 }
 .container-temp h4 {
 	font-size: 36px;
@@ -143,14 +157,45 @@ a:hover {
 	font-size: 21px;
 	text-indent: 40px;
 }
-section#bts iframe + p {
+
+textarea {
+	width: 90%;
+}
+#bts h5 {
+	font-size: 60px;
+	margin: 0;
+
 	text-align: center;
 }
-iframe {
-	margin: 30px auto;
-	width: 90%;
-	height: 320px;
+input, select {
+	height: 40px;
 }
+input, select, textarea {
+	appearance: none;
+	box-shadow: none;
+	background-color: #c7c7c7;
+	border: none;
+	width: 60%;
+	font-size: 27px;
+	margin-bottom: 30px;
+	text-align: center;
+	outline: none
+}
+textarea {
+	text-align: left;
+	padding: 15px;
+}
+input:focus, textarea:focus {
+	outline-color: rgb(30, 238, 251);
+	outline-style: inset;
+	outline-width: medium;
+}
+hr {
+	margin: 0;
+	margin-bottom: 60px;
+	visibility: hidden;
+}
+
 @media (max-width: 700px){
 	.bubble {width: auto;}
 	.container-temp h4, .container-temp h5 {text-align: center;}
@@ -163,4 +208,8 @@ iframe {
 		font-size: 20px;
 		letter-spacing: normal;
 	}
+	#bts h5 {
+		font-size: 32px;
+	}
+
 }
