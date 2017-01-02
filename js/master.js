@@ -5,11 +5,9 @@
  *
  * variable names match the html id/classes for the most part
 */
-
 // global variable def
 var count = 1;
 var MAXPAGES = 5;
-
 // scrolls to target as long as target is below the current position
 // adjusts speed to make arival time the same no matter the target
 function smoothScroll(target){
@@ -32,9 +30,8 @@ function smoothScroll(target){
     }
     scroll(sc, sc.scrollTop, targetY, 0);
 }
-
 // gives function to the front page naviagtion buttons
-function makeNavButtons(){
+function createNavButtons(){
 	var landingButtons = document.querySelectorAll("a");
 	try {
 		landingButtons[0].addEventListener("click", function(){
@@ -45,22 +42,19 @@ function makeNavButtons(){
 			smoothScroll(document.querySelector("#bts"));});
 	} catch(exception){console.log(exception);}
 }
-
 function displayProject(element){
 	window.location.href = "pages/project" + element.id + ".html";
 }
-
 // gives function to the project summary buttons when clicked
-function makeProjectButtons(){
+function createProjectButtons(){
 	var bubble = document.querySelectorAll(".bubble");
 	for(var i=0; i<bubble.length; i++){
 		bubble[i].addEventListener("click", function(){
 			displayProject(this);});}
 }
-
 function init(){
-	makeNavButtons();
-	makeProjectButtons();
+	createNavButtons();
+	createProjectButtons();
 }
 
 init();

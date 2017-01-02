@@ -24,6 +24,26 @@
 		}
 		step.style.display = 'block';
 	}
+	function smoothScroll(target){
+		var sc = target;
+		var targetY = 0;
+		do {
+	        sc = sc.parentNode;
+	        if (!sc) return;
+	        sc.scrollTop += 1;
+	    } while (sc.scrollTop == 0);
+		do {
+	        if (target == sc) break;
+	        targetY += target.offsetTop;
+	    } while (target = target.offsetParent);
+		function scroll(c, a, b, i) {
+	        i++;
+			if (i > 30) return;
+	        c.scrollTop = a + (b - a) / 30 * i;
+	        setTimeout(function(){ scroll(c, a, b, i); }, 30);
+	    }
+	    scroll(sc, sc.scrollTop, targetY, 0);
+	}
 	function createSlider(){
 		var listSlider = document.querySelector('#listSlider');
 		var listItems = document.querySelectorAll('li');
@@ -80,7 +100,26 @@
 			document.querySelector("#listSlider2").style.backgroundImage = imageUrl;
 		});
 	}
+	function createNavBtn(){
+		var navButtons = document.querySelectorAll(".headbtn");
+		navButtons[0].addEventListener('click',function(){
+			smoothScroll(document.querySelector("#desc"));
+		});
+		navButtons[1].addEventListener('click',function(){
+			smoothScroll(document.querySelector("#prereq"));
+		});
+		navButtons[2].addEventListener('click',function(){
+			smoothScroll(document.querySelector("#set"));
+		});
+		navButtons[3].addEventListener('click',function(){
+			smoothScroll(document.querySelector("#build"));
+		});
+		navButtons[4].addEventListener('click',function(){
+			smoothScrool(document.querySelector("#con"))
+		});
+	}
 	createSlider();
 	nextStep1();
 	nextStep2();
+	createNavBtn();
 })();

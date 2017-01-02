@@ -70,9 +70,7 @@ a {
 		  transition: all 0.3s;
 
 }
-a:hover {
-	background-color: #3D9970;
-}
+a:hover {background-color: #3D9970;}
 .bubble {
 	margin: 5px;
 	background: rgba(177, 17, 111, 0.57);
@@ -131,16 +129,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-#proj h3 {
-	font-size: 34px;
-}
-#proj p, #team p, #bts p {
-	font-size: 25px;
-}
-#bts p {
-	text-align: center;
-}
+#proj h3 {font-size: 34px;}
+#proj p, #team p, #bts p {font-size: 25px;}
+#bts p {text-align: center;}
 .container-temp h4 {
 	font-size: 36px;
 	text-align: left;
@@ -157,19 +148,14 @@ a:hover {
 	font-size: 21px;
 	text-indent: 40px;
 }
-
-textarea {
-	width: 90%;
-}
+textarea {width: 90%;}
 #bts h5 {
-	font-size: 60px;
+	font-size: 40px;
 	margin: 0;
 
 	text-align: center;
 }
-input, select {
-	height: 40px;
-}
+input, select{height: 40px;}
 input, select, textarea {
 	appearance: none;
 	box-shadow: none;
@@ -195,7 +181,6 @@ hr {
 	margin-bottom: 60px;
 	visibility: hidden;
 }
-
 @media (max-width: 700px){
 	.bubble {width: auto;}
 	.container-temp h4, .container-temp h5 {text-align: center;}
@@ -208,8 +193,5 @@ hr {
 		font-size: 20px;
 		letter-spacing: normal;
 	}
-	#bts h5 {
-		font-size: 32px;
-	}
-
+	#bts h5 {font-size: 32px;}
 }

@@ -1,3 +1,7 @@
+body,html {
+	width: 100%;
+	height: 100%;
+}
 h1 {
 	font-family: 'Amatic SC', cursive;
 	margin: 0;
@@ -6,6 +10,19 @@ h1 {
 	letter-spacing: 2px;
 	line-height: 90%;
 	position: relative;
+}
+.container-head {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.headbtn {
+
 }
 h2 {
 	font-family: 'Amatic SC', cursive;
@@ -24,6 +41,11 @@ body {
 	color: white;
 	-webkit-transition: all 1s;
 	        transition: all 1s;
+}
+header {
+	width: 100%;
+	height: 100%;
+	text-align: center;
 }
 a {
 	background-color: #47b685;
@@ -115,7 +137,6 @@ hr {
 	margin-right: 0;
 }
 ul + p {margin-top: 20px}
-#bth {margin-bottom: 100px;}
 .steps{display: none;}
 #step11, #step21 {display: block;}
 a.button{
@@ -128,8 +149,7 @@ a.button{
 #next1,#next2 {margin-left: 100px;}
 #back1,#back2 {margin-right: 100px;}
 .finishedDesktop {background-image: url(../media/pictures/finishedDesktop.jpg);}
-#listSlider1{background-image: url(../media/pictures/computer11.jpg);}
-#listSlider2{background-image: url(../media/pictures/computer21.jpg);}
+
 @media (max-width: 700px){
 	.image {
 		float: none;
