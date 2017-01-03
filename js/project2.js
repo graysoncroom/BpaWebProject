@@ -58,7 +58,7 @@
 		var backButton = document.querySelector('#back1');
 		var nextButton = document.querySelector('#next1');
 		//number of steps for the first slide
-		var lastStepNumber = 3;
+		var lastStepNumber = 4;
 		backButton.addEventListener('click',function(){
 			if(currentStepNumber == 1){
 				currentStepNumber = lastStepNumber;
@@ -83,7 +83,7 @@
 		var backButton = document.querySelector('#back2');
 		var nextButton = document.querySelector('#next2');
 		//number of steps for the second slide
-		var lastStepNumber = 5;
+		var lastStepNumber = 4;
 		backButton.addEventListener('click',function(){
 			if(currentStepNumber == 1){
 				currentStepNumber = lastStepNumber;
