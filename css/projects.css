@@ -15,14 +15,10 @@ h1 {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-
 	-webkit-transform: translate(-50%,-50%);
 	   -moz-transform: translate(-50%,-50%);
 	    -ms-transform: translate(-50%,-50%);
 	        transform: translate(-50%,-50%);
-}
-.headbtn {
-
 }
 h2 {
 	font-family: 'Amatic SC', cursive;
@@ -32,7 +28,7 @@ h2 {
 }
 body {
 	background-color: lightblue;
-	background-image: url(../media/pictures/background0.jpg);
+	background-image: url(../media/pictures/diyBackground.jpg);
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,28 +47,21 @@ a {
 	background-color: #47b685;
 	border-radius: 60px;
 	display: block;
-
 	font-size: 25px;
 	font-weight: lighter;
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 1px;
 	color: white;
-
 	max-width: 400px;
 	width: 80%;
-
 	margin: 15px auto;
 	padding: 9px;
-
 	cursor: pointer;
-
 	-webkit-transition: all 0.3s;
 		  transition: all 0.3s;
 }
-a:hover {
-	background-color: #3D9970;
-}
+a:hover {background-color: #3D9970;}
 section,article {
 	background-color: rgba(177, 17, 111, 0.57);
 
@@ -105,22 +94,26 @@ ul.rrr {
 	list-style: none;
 	text-align: left;
 }
-#space {
-	line-height: 45px;
-}
+#space {line-height: 45px;}
 .listSlider11{background-image: url(../media/pictures/computer11.jpg);}
 .listSlider12{background-image: url(../media/pictures/computer12.jpg);}
-.listSlider21{background-image: url(../media/pictures/computer21.jpg);}
-.listSlider22{background-image: url(../media/pictures/computer22.jpg);}
+.listSlider21{background-image: url(../media/pictures/skate11.jpg);}
+.listSlider22{background-image: url(../media/pictures/skate21.jpg);}
+.container-temp {
+	background-color: rgba(177, 17, 111, 0.57);
+	margin: 10px auto;
+	max-width: 970px;
+	width: 90%;
+	padding: 10px;
+	border-radius: 50px;
+}
 li.rrr {
 	margin: 25px;
 	cursor: pointer;
 	max-width: 300px;
 	width: 90%;
 }
-li.rrr:hover {
-	color: rgb(201, 201, 201);
-}
+li.rrr:hover {color: rgb(201, 201, 201);}
 .image {
 	background-color: grey;
 	background-position: center;
@@ -156,7 +149,6 @@ a.button{
 #next1,#next2 {margin-left: 100px;}
 #back1,#back2 {margin-right: 100px;}
 .finishedDesktop {background-image: url(../media/pictures/finishedDesktop.jpg);}
-
 @media (max-width: 700px){
 	.image {
 		float: none;

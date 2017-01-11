@@ -48,7 +48,7 @@
 		var listSlider = document.querySelector('#listSlider');
 		var listItems = document.querySelectorAll('li');
 		//change the link below to match the name of the first item in the list
-		listSlider.style.backgroundImage = 'url(../media/pictures/NAMEOFTHEFIRSTITEMGOESHERE.jpg)';
+		listSlider.style.backgroundImage = 'url(../media/pictures/drillbit.jpg)';
 		for(var i=0; i<listItems.length;i++){
 			listItems[i].addEventListener('mouseover',function(){
 				changeImage(this,listSlider);
@@ -65,7 +65,7 @@
 			} else currentStepNumber--;
 			replaceTextContent1(currentStepNumber);
 			document.querySelector('#stepNum1').textContent = currentStepNumber;
-			var imageUrl = "url(../media/pictures/skateboard1" + currentStepNumber + ".jpg)";
+			var imageUrl = "url(../media/pictures/skate1" + currentStepNumber + ".jpg)";
 			document.querySelector("#listSlider1").style.backgroundImage = imageUrl;
 		});
 		nextButton.addEventListener('click', function(){
@@ -74,7 +74,7 @@
 			} else currentStepNumber++;
 			replaceTextContent1(currentStepNumber);
 			document.querySelector('#stepNum1').textContent = currentStepNumber;
-			var imageUrl = "url(../media/pictures/skateboard1" + currentStepNumber + ".jpg)";
+			var imageUrl = "url(../media/pictures/skate1" + currentStepNumber + ".jpg)";
 			document.querySelector("#listSlider1").style.backgroundImage = imageUrl;
 		});
 	}
@@ -83,14 +83,14 @@
 		var backButton = document.querySelector('#back2');
 		var nextButton = document.querySelector('#next2');
 		//number of steps for the second slide
-		var lastStepNumber = 4;
+		var lastStepNumber = 3;
 		backButton.addEventListener('click',function(){
 			if(currentStepNumber == 1){
 				currentStepNumber = lastStepNumber;
 			} else currentStepNumber--;
 			replaceTextContent2(currentStepNumber);
 			document.querySelector('#stepNum2').textContent = currentStepNumber;
-			var imageUrl = "url(../media/pictures/skateboard2" + currentStepNumber + ".jpg)";
+			var imageUrl = "url(../media/pictures/skate2" + currentStepNumber + ".jpg)";
 			document.querySelector("#listSlider2").style.backgroundImage = imageUrl;
 		});
 		nextButton.addEventListener('click', function(){
@@ -99,7 +99,7 @@
 			} else currentStepNumber++;
 			replaceTextContent2(currentStepNumber);
 			document.querySelector('#stepNum2').textContent = currentStepNumber;
-			var imageUrl = "url(../media/pictures/skateboard2" + currentStepNumber + ".jpg)";
+			var imageUrl = "url(../media/pictures/skate2" + currentStepNumber + ".jpg)";
 			document.querySelector("#listSlider2").style.backgroundImage = imageUrl;
 		});
 	}
