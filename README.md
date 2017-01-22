@@ -22,4 +22,4 @@ If you have suggestions or comments of kind either email me at grayson.croom@gma
 
 I'm just going to put it out there, my javascript code is complete crap. The code is stupidly specific and there are more files then are required at the moment. It is not seperated into functions in some cases as well. BUT it works. I have a deadline to meet, so working is fine with me. Later on I will go back and refactor the code into a single js file that both the project pages can share. I was tired and running on empty when I was finishing the project page js scripts, I doubt anyone can follow the code I wrote but if I have time later on I will fix that.
 
-Project Deadline: January 9ish
+Project Deadline: January 18, 2017
