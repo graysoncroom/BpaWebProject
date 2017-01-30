@@ -9,7 +9,9 @@ the design of the website is our okay attempt at being creative, the server is h
 software on linux, and the website itself was coded without any help from libraries (this means no jQuery, Bootstrap, etc.)
 This is my first 'real' website and I learned a shit ton from this project (like why OOP is never to be ignored).
 
-<h4>Check out the current working version of this project at: https://graysoncroom.github.io/BpaWebProject/</h4>
+<h4>Check out the latest version of the site at (may be buggy): https://graysoncroom.github.io/BpaWebProject/</h4>
+
+<h4>Or look at the offical site (stable) at: http://doityourself.wiki</h4>
 
 <h4>Currently works with the following browsers</h4>
 <ul>
