@@ -2,7 +2,7 @@
 
 <h2>My group and I are working on a Web Design project for BPA.</h2>
 
-<h3>UPDATE: We placed 3/6 in Regionals ( prob because of poor presentation ) and we are going to state!!
+<h3>UPDATE: We placed 3/6 in Regionals and are going to state!!
 
 No dependencies are in this project. I do not plan on using anything other than google fonts.
 
