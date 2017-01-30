@@ -1,8 +1,8 @@
 # BpaWebProject
 
-<h2>My group and I are working on a Web Design project for BPA.</h2>
+<h2>Aaron Hueske and I are representing The Woodlands High School BPA chapter in 'Website Design Team'</h2>
 
-<h4>UPDATE: We placed 3/6 in Regionals and are going to state!!</h4>
+<h4>UPDATE: We are going to state after placing in third (out of six) at regionals!</h4>
 
 There is NOTHING in this project that is not ours. The pictures were taken by my partneer (background included),
 the design of the website is our okay attempt at being creative, the server is hosted on open source web server
@@ -25,5 +25,5 @@ If you have suggestions or comments of kind either email me at grayson.croom@gma
 
 
 
-Project Deadline: January 18, 2017
+Project Deadline: <strike>January 18, 2017</strike>
 
