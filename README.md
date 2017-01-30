@@ -2,15 +2,14 @@
 
 <h2>My group and I are working on a Web Design project for BPA.</h2>
 
-<h3>UPDATE: We placed 3/6 in Regionals and are going to state!!
+<h4>UPDATE: We placed 3/6 in Regionals and are going to state!!</h4>
 
-No dependencies are in this project. I do not plan on using anything other than google fonts.
+There is NOTHING in this project that is not ours. The pictures were taken by my partneer (background included),
+the design of the website is our okay attempt at being creative, the server is hosted on open source web server
+software on linux, and the website itself was coded without any help from libraries (this means no jQuery, Bootstrap, etc.)
+This is my first 'real' website and I learned a shit ton from this project (like why OOP is never to be ignored).
 
-<h3>Check out the current working version of this project at: https://graysoncroom.github.io/BpaWebProject/</h3>
-
-The only thing that you may experiance is a little wait ( 8 seconds tops ) for the background image to load due to the high resolution of jpeg images.
-
-This project is mobile responsive with a desktop-first approach. Colors and page layout are subject to change at any given time. This site does not own any Images or other media and these things may be subject to copywrite laws, but due to the educational element to this project I don't really care. Cudos to the creators where ever you are.
+<h4>Check out the current working version of this project at: https://graysoncroom.github.io/BpaWebProject/</h4>
 
 <h4>Currently works with the following browsers</h4>
 <ul>
