@@ -11,8 +11,6 @@ This is my first 'real' website and I learned a shit ton from this project (like
 
 <h4>Check out the latest version of the site at (may be buggy): https://graysoncroom.github.io/BpaWebProject/</h4>
 
-<h4>Or look at the offical site (stable) at: http://doityourself.wiki</h4>
-
 <h4>Currently works with the following browsers</h4>
 <ul>
   <li>Google Chrome</li>
