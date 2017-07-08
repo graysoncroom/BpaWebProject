@@ -15,20 +15,21 @@ function smoothScroll(target) {
 	var sc = target;
 	var targetY = 0;
 	do {
-        sc = sc.parentNode;
-        if (!sc) return;
-        sc.scrollTop += 1;
-    } while(sc.scrollTop == 0);
+        	sc = sc.parentNode;
+        	if (!sc) return;
+        	sc.scrollTop += 1;
+	} while(sc.scrollTop == 0);
 	do {
-        if (target == sc) break;
-        targetY += target.offsetTop;
-    } while(target = target.offsetParent);
-	(function(c, a, b, i) {
-        i++;
+        	if (target == sc) break;
+        	targetY += target.offsetTop;
+	} while(target = target.offsetParent);
+	function scroll(c, a, b, i) {
+		i++;
 		if (i > 30) return;
-        c.scrollTop = a + (b - a) / 30 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 30);
-    }(sc, sc.scrollTop, targetY, 0));
+        	c.scrollTop = a + (b - a) / 30 * i;
+        	setTimeout(function(){ scroll(c, a, b, i); }, 30);
+    	}
+	scroll(sc, sc.scrollTop, targetY, 0));
 }
 // gives function to the front page naviagtion buttons
 function createNavButtons() {
