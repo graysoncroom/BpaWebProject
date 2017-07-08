@@ -21,7 +21,7 @@ This is my first 'real' website and I learned a shit ton from this project (like
 
 If you have suggestions or comments of kind either email me at grayson.croom@gmail.com or start an issue board to get others who may also share your opinion talking about it. Make sure to check the issue board before making your own as to minimize duplicates.
 
-
+Please keep in mind that I wrote this when I was very new to web development. It is so bad that I would rather rewrite all of it than go back and try to fix it. This is not how I would structure a project anymore, but that being said it got the job done. Oh well.
 
 Project Deadline: <strike>January 18, 2017</strike>
 
